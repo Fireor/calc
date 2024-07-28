@@ -5,6 +5,8 @@ def main():
         calc(typ)
     except ValueError:
         print("The entered value is not a valid value")
+    except Exception:
+        print("Smthing went wrong. Please try again ¯\_(ツ)_/¯")
         
 def calc(typ):
     try:
